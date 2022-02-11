@@ -26,7 +26,7 @@ public class CommonGenerator : IGenerator {
     public string GenerateSolution (int seed)
     {
         var generator = new Random (seed);
-        return words [generator.Next (exampleWords.Length)];
+        return words [generator.Next (words.Length)];
     }
 
     public bool ValidateInput (string currentInput)
