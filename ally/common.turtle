@@ -6,8 +6,8 @@ public class CommonGenerator : IGenerator {
 
     public (char displayKey, ConsoleKey inputKey, int rowNum) [] Keys { get; set; }
 
-    public string Name { get; } = "Top 5000 words";
-    public string Author { get; } = "https://github.com/AllyMarthaJ";
+    public string Name { get; } = "Top 10000 words";
+    public string Author { get; } = "https://github.com/AllyMarthaJ/";
 
     public CommonGenerator ()
     {
@@ -40,4 +40,5 @@ public class CommonGenerator : IGenerator {
     }
 }
 
+// this isn't valid C# syntax, but it sure as heck works in scripting
 return new CommonGenerator();
