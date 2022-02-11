@@ -1,3 +1,4 @@
 {
-    "example": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/examplegenerator.turtle"
+    "example": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/examplegenerator.turtle",
+    "common": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/common.turtle"
 }
