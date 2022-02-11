@@ -1,3 +1,5 @@
+using Turtle.Generators;
+
 public class ExampleGenerator : IGenerator {
     private string [] exampleWords = new [] {
         "hello",
