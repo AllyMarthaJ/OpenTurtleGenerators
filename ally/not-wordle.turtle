@@ -10,7 +10,7 @@ public class NotWordleGenerator : IGenerator {
     public string Name { get; } = "Wordle's Wordlist Generator";
     public string Author { get; } = "https://github.com/AllyMarthaJ/";
 
-    public CommonGenerator ()
+    public NotWordleGenerator ()
     {
         this.setKeys ();
     }
