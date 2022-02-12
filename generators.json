@@ -1,4 +1,5 @@
 {
     "example": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/examplegenerator.turtle",
-    "common": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/common.turtle"
+    "common": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/common.turtle",
+    "wordle": "https://raw.githubusercontent.com/AllyMarthaJ/OpenTurtleGenerators/master/ally/not-wordle.turtle"
 }
