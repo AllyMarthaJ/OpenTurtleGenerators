@@ -37,9 +37,14 @@ public class NotWordleGenerator : IGenerator {
         foreach (var word in allowedGuesses)
             if (String.Equals (word, currentInput, StringComparison.OrdinalIgnoreCase))
                 validWord = true;
+
+        foreach (var word in answers)
+            if (String.Equals (word, currentInput, StringComparison.OrdinalIgnoreCase))
+                validWord = true;
+
         return validWord;
     }
 }
 
 // this isn't valid C# syntax, but it sure as heck works in scripting
-return new NotWordleGenerator();
+return new NotWordleGenerator ();
